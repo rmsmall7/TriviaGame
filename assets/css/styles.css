@@ -1,0 +1,55 @@
+body{
+  background-image:url("https://livability.com/sites/default/files/Charlotte-NC.jpg");
+  background-repeat:no-repeat;
+  background-size: cover;
+  color:blueviolet;
+  font-family: Arial, Helvetica, sans-serif
+
+}
+
+#container {
+  width: 50%;
+  background-color: lightblue;
+  margin:20px auto;
+  overflow:auto;
+  padding-top:25px;
+  text-align: center;
+  font-size: 14px;
+  opacity: 0.6;
+}
+
+header {
+  border-bottom: white dashed 1px;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+header h1{
+  margin:0;
+  padding:0;
+}
+
+input[type="submit"]{
+  background-color:violet;
+  color:white;
+  border: solid white 1px;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  font-weight: bolder;
+}
+
+#quizQuestion {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+#results h3{
+  background-color:orange;
+  padding:10px;
+  margin:10px 0;
+}
+
+#results span {
+  color:black;
+  font-weight:bold;
+}
